@@ -41,7 +41,7 @@ const Services = () => {
                 }
             </div>
             <div>
-                <div class="hero min-h-screen bg-white mt-5 px-28 bg-base-200">
+                <div class="hero min-h-screen bg-white mt-5 px-28 ">
                     <div class="hero-content flex-col lg:flex-row">
                         <img src={treatment} class="max-w-sm rounded-lg shadow-2xl" />
                         <div className='pl-5'>
