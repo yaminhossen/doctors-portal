@@ -14,7 +14,7 @@ const AppoService = ({ service, setTreatement }) => {
                 <p>{slots.length} {slots.length > 1 ? 'spaces' : 'space'} available</p>
                 <div className="card-actions justify-center">
                     <label
-                        for="booking-modal"
+                        htmlFor="booking-modal"
                         disabled={slots.length == 0}
                         onClick={() => setTreatement(service)}
                         className="btn btn-sm btn-secondary text-white bg-gradient-to-r from-secondary to-primary ">Booking Appoinment
